@@ -1,0 +1,119 @@
+.navbar {
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    padding-top: 10px;
+    padding: auto;
+    width: 400px;
+    height: 100px;
+    /* border: 2px solid red; */
+    /* background-color: beige; */
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 30px; */
+    /* margin-left: 100px; */
+    color: darkred;
+}
+
+.nav {
+    font-size: 50px;
+}
+
+.container {
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstDivision {
+
+    border: 10px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 300px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.distt {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.name {
+    color: red;
+    margin-top: auto;
+    text-align: center;
+    text-decoration: double;
+    margin-top: 0px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.SecondDivision {
+    margin-top: 100px;
+    border: 2px solid black;
+    display: flex;
+    gap: 100px;
+
+}
+
+.img {
+    display: flex;
+    border: 2px solid blueviolet;
+    width: 800px;
+    height: auto;
+}
+
+.frame {
+    border-image-width: 50px;
+    border: 2px solid green;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+}
+
+.back {
+    background-color: deepskyblue;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.first {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: 5px solid blue;
+    background-color: yellow;
+}
+
+.second {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}

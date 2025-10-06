@@ -1,0 +1,27 @@
+.first {
+    /* color: blue; */
+    border: 2px solid blue;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.heading {
+    font: 35px blue;
+
+}
+
+.para {
+    border: 2px solid black;
+    width:70%;
+    font-size: 40px;
+    text-align: justify;
+    margin-left:15%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.para1{
+    display: flex;
+    justify-content: content;
+    align-items: center;
+}
